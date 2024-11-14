@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="">
         <h4 className="text-2xl font-semibold text-white">FurniShop</h4>
       </div>
-      <div className="">
+      <div className="hidden lg:block">
         <ul className="flex gap-x-16">
           <li className="text-base font-semibold text-white">
             <Link href="#">Home</Link>
