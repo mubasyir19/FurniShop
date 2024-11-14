@@ -128,7 +128,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex items-center gap-x-16 px-6 py-12 lg:pl-24 lg:pr-0">
+      <section className="flex flex-col items-center gap-x-16 px-6 py-12 lg:flex-row lg:pl-24 lg:pr-0">
         <div className="flex flex-row items-center justify-center gap-x-5 lg:flex-col lg:justify-start">
           <h2 className="text-2xl font-semibold text-black lg:text-4xl">
             New In Store Now
@@ -138,7 +138,7 @@ export default function Home() {
           </p>
           <Link
             href="#"
-            className="mt-12 text-base font-medium text-black underline"
+            className="mt-12 hidden text-base font-medium text-black underline lg:block"
           >
             Check All
           </Link>
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex items-center gap-x-28 px-6 py-12 lg:px-24">
+      <section className="flex flex-col items-center gap-x-28 px-6 py-12 lg:flex-row lg:px-24">
         <div className="lg:w-1/2">
           <h2 className="text-2xl font-semibold text-black lg:text-4xl">
             The Best Furniture Manufacturer of your choice
@@ -258,7 +258,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="flex items-center gap-x-10 px-6 py-12 lg:px-24">
+      <section className="flex flex-col items-center gap-x-10 px-6 py-12 lg:flex-row lg:px-24">
         <div className="lg:w-1/2">
           <h2 className="text-2xl font-semibold text-black lg:text-4xl">
             What People Saying About Us
